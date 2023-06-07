@@ -43,7 +43,7 @@ export async function POST ( request: Request ) {
             guestCount, 
             locationValue: location.value, //according to prisma scheme and how we retrieve location
             price: parseInt(price, 10), 
-            userId: currentUser.id
+            userId: currentUser.id//review logic
         }
     });
 
