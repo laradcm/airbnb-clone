@@ -8,7 +8,7 @@ export async function POST ( request: Request ) {
     const currentUser = await getCurrentUser();
 
     if(!currentUser){
-        NextResponse.error();
+       return NextResponse.error();
     }
 
     const body = await request.json();
