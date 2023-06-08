@@ -71,7 +71,7 @@ const ListingCard: React.FC<ListingCardProps> = ( {
 
     return ( 
         <div                                                        
-            onClick={() => router.push(`/listings/${data.id}`)}
+            onClick={() => router.push(`/listings/${data.id}`)}//will route to the individual listing page
             className="
                 col-span-1
                 cursor-pointer 

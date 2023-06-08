@@ -12,7 +12,7 @@ const Avatar: React.FC<AvatarProps>= ({
 }) => {
     return ( 
         <Image
-        className="rounded-full"
+        className="rounded-full border-[2px] border-slate-300"
         height={30}
         width={30}
         alt="Avatar"
